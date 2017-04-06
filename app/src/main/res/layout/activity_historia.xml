@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.dm.dmass.historia">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:text="Historia del Kenpo"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:id="@+id/textView3"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginBottom="@dimen/text_margin"
+            android:layout_marginTop="10dp" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/av_bottom_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:visibility="visible"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_inferior_ad_unit_id" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:layout_marginTop="115dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" >
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Origen, Evolución y Precursores del Kenpo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:id="@+id/textView24" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Narrar con exactitud sobre el origen de las artes marciales es ciertamente compleja y controversial; un tanto comprometedor, sin embargo, haciendo una revisión sobre parte de la literatura disponible, se cree que las artes marciales tuvieron su origen en la India y de ahí llegaron a China hace como 5.000 años."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView34" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Un dato unánimemente aceptado es que todas las formas y estilos de peleas usados en las artes marciales han sido desarrollados imitando movimientos de diversos animales, entre estos, el Tigre, el Oso, el Mono, el Venado, Serpientes, varios tipos de aves, como el Águila, y la Grulla y una infinidad de especies que incluyen hasta insectos como la Mantis Religiosa."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView35" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:text="Nacimiento de las Artes Marciales"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:id="@+id/textView40" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Tamo ( Bodhidarma o Daruma )"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:id="@+id/textView38" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/bodhidarma"
+                android:id="@+id/imageView23" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="El pugilismo oriental como una forma de arte marcial, data de los tiempos de las dinastias Ming ( 1368-1644 dc ) y Ch'ing ( 1644-1911 dc ). Sin embargo, el dato más reconocido como el origen de las artes marciales chinas se le acredita a Tamo, el 28° Patriarca Hindú de la Fé Budista, también conocido como Bodhidarma. Los Japoneses lo llamaron Daruma-Daishi. Se cree que su llegada a China fué por el año 527 dc."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView39" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Tamo o Daruma, jamás tuvo la intención de enseñar formas de combate, por el contrario, viajó intensamente por toda China, donde introdujo la filosofía Zen que promueve el seguir los patrones de la naturaleza, de hecho, la doctrina Zen enseñada por Tamo constituye la base de la estructura religiosa China."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView37" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Tamo, eventualmente llegó al monasterio Shaolín, llamado Sil-Lum, ( en japonés: Shorin-Ji ), ahí pudo observar que los monjes, perturbados por conflictos de guerra en esa época, se encontraban distraídos, lo cual les impedía efectuar de manera correcta sus meditaciones diarias; esto resultó ser la oportunidad que Tamo encontró como la puerta abierta por donde empezó a introducir sus enseñanzas que empezaron por ejercicios físicos que ayudarían a los monjes a obtener mayor resistencia y a sentirse más vigorizados, incluso les demostró que el ejercicio incrementaba la longevidad. Muchas de las rutinas que Tamo enseño a los monjesn dinámica, y varios métodos de respiración."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView33" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Después de ésta preparación y sabedor de las necesidades de los monjes de tener que defenderse de maleantes y bandidos, Tamo explicó que sostenía su idea de que la confrontación, la guerra y matar eran cosas indebidas y negativas, pero aceptó que igualmente negativo era no estar preparado para defenderse y por lo tanto les enseñaría como convertir sus cuerpos en armas mortales."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView31" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/bodhidharma1"
+                android:id="@+id/imageView48" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Daruma o Tamo fue el precursor de la enseñanza de las artes marciales pero eventualmente ésta clase de entrenamientos se convirtieron en parte integral del estilo de vida de los Chinos, aunque el acceso a éstas enseñanzas en un principio sólo estaba al alcance de monjes y ciertos militares, posteriormente el arte fue difundido a sus familias y clanes quienes juraban guardar celosamente las enseñanzas sólo para miembros de los mismos clanes o familias. A partir de esto nace la difusión de las artes marciales, aunque de modo restringido."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView36" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="El estudio histórico a partir de este punto implicaría profundas y extensas lecciones adicionales..."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView30" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="A pesar de la complejidad y diversidad de la historia de las artes marciales, para llegar a tener una idea al menos básica de como se desarrollaron durante el siglo pasado, no se puede pasar por alto aportaciones de trascendencia definitiva de dos grandes maestros, ambos de Okinawa: Gichin Funakoshi y Kenwa Mabuni, quienes entre los años 1915 y 1930 destaparon el velo que mantenia en secreto la enseñanza del Karate al introducir la exposición abierta de sus sistemas: Shotokan y Shito Ryu respectivamente."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView32" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Hacia finales de la segunda guerra mundial, mientras que en Japón el Karate continuaba en pleno crecimiento y dispersión, en los EEUU las leyes prohibían cualquier cosa que se pudiese relacionar con artes marciales; por otra parte, el desarrollo de las artes marciales en Corea estaba adquiriendo fuerza. No obstante esto, la enseñanza y práctica de las artes marciales Chinas en países extranjeros empezaron antes de que el Karate de Okinawa fuera introducido al Japón."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView28" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Sin contar a los países asiáticos, Hawai fué el primer territorio de los EEUU que recibió tutelaje sobre las artes marciales chinas, pero aún en Hawai continuaban siendo 'Chinos enseñando a Chinos'."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView27" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:text="Evolución del Kenpo y sus precursores."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:id="@+id/textView25" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="James M. Mitose ( 1916-1981 )"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:id="@+id/textView26" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/james_mitose"
+                android:id="@+id/imageView49" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="El arte del Kenpo fue introducido a Hawai por James Masayoshi Mitose durante los inicios de la segunda guerra mundial ( Diciembre de 1941 ). Mitose nació en Kona, Hawai, el 30 de diciembre de 1916 y vivió varios años en Japón, en donde aprendió de sus familiares en éste País. De modo consistente con lo que Tamo en su época bautizó lo que ahora conocemos como con el nombre de Shorin - Ji ( Kenpo ), Mitose aprendió este arte bajo el nombre que le dban los japoneses: Shorin - Ji Ryu Kenpo, lo que en Chino se llama: Ch'uan Fa, la ley del puño."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView41" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Siendo el Kenpo un sistema enseñado por los antiguos Maestros Chinos y que entre otros fue aprendido por los ancestros de James Mitose, éstos le hicieron algunas modificaciones que permitirían hacerlo más fácil de comprender de acuerdo a modo de entender de los japoneses. En esos tiempos, un Maestro de nombre Choki Motobu decia haber recibido nuevas revelaciones relacionadas con el Kenpo y al tiempo de agregar dichos conceptos nuevos lo llamó: Kosho Ryu Kenpo."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView23" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

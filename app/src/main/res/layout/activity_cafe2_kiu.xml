@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.dm.dmass.Cafe2Kiu">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:text="Programa Técnico Cinturón Café 2° Kiu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginBottom="@dimen/text_margin"
+            android:layout_marginTop="25dp" />
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:layout_marginTop="115dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:text="Defensas personales: \n \n 1.- Cruce Fatal ( Fatal Cross ) Intento de empujar o abrazar bajo, con ambas manos. \n \n 2.- Martillos Giratorios ( Twirling Hammers ) Puño frontal izquierdo. \n \n 3.- Cruce Defensivo ( Defensive Cross ) Puntapie frontal derecho. \n \n 4.- Danza de Oscuridad ( Dance of Darkness ) Puntapié frontal derecho y puño frontal derecho. \n \n 5.- Cazando los arietes ( Marriage of the rams ) Tomada de hombros, lateral, por dos oponentes."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txCafe2.1" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:text="6.- El Ariete y el Águila ( The Ram and the Eagle ) Puño frontal derecho y tomada de hombro derecho por atrás. Dos oponentes. \n \n 7.- Escape de la tormenta ( Escape from the Storm ) Bastón Lateral derecho descendente, con paso en profundidad. \n \n 8.- Girando las Hélices ( Circling Windmills ) Empujón con dos manos o puño frontal derecho. \n \n 9.- Rodillas destructivas ( Destructive Knees ) Puño frontal derecho. \n \n 10.- Reverencia al Buda ( Bowing to Buda ) Puntapié circular derecho bajo."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txCafe2.2"
+            android:textAlignment="textStart" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:text="11.- Circulos en Reversa ( Reversing Circles ) Puntapié circular izquierdo y puño frontal izquierdo. \n \n 12.- Desafiando a los Osos ( Reprimanding the Bears ) Abrazo de Oso posterior y puño frontal derecho por dos oponentes. \n \n 13.- Rodeando la Tormenta ( Circling the Storm ) Bastón frontal derecho o descendente. 14.- Despejando la Oscuridad ( Unfoding the Dark ) Puño posterior izquierdo por el flanco derecho. \n \n 15.- Deteniendo el Péndulo ( Unwinding Pendulum ) Puntapié frontal derecho y puño frontal derecho."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txCafe2.3" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:text="16.- Lanza Penetrante ( Piercing Lance ) Cuchillo frontal derecho. \n \n 17.- Escape desde la Oscurdad ( Escape From Darkness ) Puño posterior derecho por el Flanco izquierdo. \n \n 18.- Capturando la Vara ( Capturing the rod ) Pistola frontal derecha. \n \n 19.- Brinco del Tigre ( Prance of the Tiger ) \n \n 20.- Rompiendo la vara ( Brocken Rod ) Pistola posterior derecha. \n \n 21.- Masa Entrelazada ( Entwined Maces ) Puño Izquierdo y derecho con pié izquierdo adelantado. \n \n 22.- Retando la Vara ( Defying the Rod ) Pistola frontal derecha. \n \n 23.- Desviación Fatal ( Fatal Desviation ) Puño frontal derecho e izquierdo con pié derecho adelantado. \n \n 24.- Torciendo la Vara ( Twisted Rod ) Pistola frontal derecha."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txcafe2.4" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:text="Formas y Sets: \n \n 1.- Finger Set N°2. \n \n 2.- Stance Set N°2."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txc2Form" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:text="Tiempo del Grado, 12 meses aproximadamente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txC2Fin"
+            android:textStyle="normal|bold"
+            android:textAlignment="center" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cafe2"
+                android:id="@+id/imageView32" />
+
+            <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

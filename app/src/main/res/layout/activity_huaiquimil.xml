@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.dm.dmass.huaiquimil"
+    android:background="@android:color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:text="René Huaiquimil \n Director"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginBottom="@dimen/text_margin"
+            android:layout_marginTop="25dp"
+            android:background="@android:color/transparent"
+            android:foreground="@android:color/transparent"
+            android:textColor="@android:color/white"
+            android:layout_weight="1" />
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:layout_marginTop="115dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/rene"
+                android:id="@+id/imageView14" />
+
+            <TextView
+                android:text="Don René Sergio Huaiquimil Santander nació en Santiago de Chile, el día 29 de mayo de 1963, hijo de padres separados. A los 18 años vivió prácticamente en la calle, sin ser delincuente, pero dado que no tenía mayor control en el hogar, normalmente la pasaba deambulando en la ciudad, lo que generaba distintos tipos de dificultades y riesgos. Un día, tuvo que arrancar prácticamente de una paliza, lo que lo hizo pensar y darse cuenta que necesitaba aprender a defenderse de alguna forma."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+
+            <TextView
+                android:text="Esta necesidad de autodefensa lo hizo conocer la academia de kenpo del Maestro Arturo Petit, donde llegó a ser seleccionado nacional del gran equipo de la Kenpo Karate Chile entre los años 1989-1990."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/rene3"
+                android:id="@+id/imageView17" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Debido a diferencias con el Maestro Petit, El maestro René se retiró por un tiempo de La Kenpo. Volvió 3 años después, tras un llamado del Maestro Petit para que volviera a ser alumno de su escuela. Según sus palabras “…fue una de las Alegrías más grandes haber recibido ese llamado…”"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Desde ese minuto se quedó entrenando hasta que el Maestro Petit falleció. Sin duda este hecho Golpeó brutalmente al maestro René Huaiquimil, quien continuó entrenando por un tiempo más bajo las ordenes de quien secundo al Maestro Petit en ese entonces, el Maestro José Garay, con quien estuvo aproximadamente 5 años, siendo parte del linaje directo del Maestro Petit."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/rene9"
+                android:id="@+id/imageView18" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="La partida del  Maestro Arturo Petit fue muy dolorosa para el Maestro René Huaiquimil, por el vínculo de amistad que se creó entre ambos. Según Palabras de don René: “...de hecho, algunas personas cuando me veían me llamaban 'El hijo de papá', por la cercanía que tenía el maestro conmigo...” "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Cuando murió don Arturo, fue el Maestro René quien le pasó al Maestro José Garay el cinturón Negro 10 Dan honorifico para que graduara al gran maestro al momento de su funeral. Según Palabras de don René: “...para mí fue la muerte de mi segundo padre...a él dedico los logros de Dojo Mass Chile...en Él me inspiro para hacer que esta escuela siga creciendo…”"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/dmlogo"
+                android:id="@+id/imageView15" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Después de retirarse de la Kenpo, Don René decide formar lo que hasta hoy se conoce como la Escuela Dojo Mass Chile, esto a partir del 25 de Octubre de 2005, día en que se formaliza la organización."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"
+                android:textAlignment="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="El maestro René Huaiquimil al día de hoy ostenta el grado de Cinturón Negro 7° dan Internacional, otorgado por el Grand Maestro Sergio Contreras, 10° dan de las Artes. Y dentro de los hitos más importantes está el haber obtenido el 6° Dan de manos del Grand Master Larry Tatum. 10° Dan de las Artes.  Además de haber obtenido de mano directa de don Arturo Petit desde el 1° al 4° Dan  consecutivamente, y el 5° dan de manos del Maestro  José Garay, Cinturón Negro 9° Dan."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/rene4"
+                android:id="@+id/imageView19" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/dmblanco"
+                android:id="@+id/imageView16" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

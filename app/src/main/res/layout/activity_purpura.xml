@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.dm.dmass.purpura"
+    android:background="@android:color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:text="Programa Técnico Cinturón Púrpura ( 6° Kiu )"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginBottom="@dimen/text_margin"
+            android:layout_marginTop="25dp" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:layout_marginTop="115dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Defensas personales:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="1.- Torciendo las alas ( Twirling Wings ) Estrangulamiento posterior con ambas manos."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="2.- Latigazo a la rama ( Snapping Twig ) Empujón frontal al plexo, con mano izquierda."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="3.- Salto de la grulla ( leaping Crane ) Puño frontal derecho."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur3" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="4.- Oscilación del Péndulo ( Swinging Pendulum ) Puntapié circular derecho."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur4" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="5.- Estallido del Martillo ( Crushing Hammer ) Abrazo de oso por detrás, brazos asegurados."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur5" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="6.- Abandonando la Captura ( Capture Leaves ) Llave frontal a los dedos."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur6" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="7.- Evadiendo la tormenta ( Evading the Storm ) Bastón descendente derecho."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur7" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="8.- Cargando el ariete ( Charging ram ) Tacle Frontal."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur8" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="9.- Alas partidas ( Parting wings ) Empujón frontal con dos manos."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur9" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="10.- Martillo Tronador ( Thundering hammer ) Puño frontal derecho."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tPur10" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="11.- Estrujando el Durazno ( Squeezing the peach ) Abrazo de Oso posterior, brazos asegurados."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur11" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="12.- Alas Giratorias ( Circling Wings ) Estrangulamiento posterior, con dos manos."
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/txPur12" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="13.- Calmando la tormenta ( Calming the Storm ) Bastón circular derecho."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur13" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="14.- Arrojando la Masa ( Darting Mace ) Tomada frontal de muñeca derecha, con dos manos."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txpur14" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="15.- Enganchando las Alas ( Hooking Wings ) Empujón frontal abajo, con dos manos."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur15" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Posiciones: \n \n 1.- Arrodillada abierta. \n 2.- Arrodillada cerrada. \n 3.- Torcida atrás y adelante."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur16" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Técnicas de Mano: \n \n 1.- Canto de mano ( Normal, revés, frontal, descendente ). \n 2.- Puño de revés ( Normal y de combate ). \n 3.- Codo frontal, lateral, ascendente, descendente, atrás."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur17" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Bloquéos: \n \n 1.- Desvío interno y externo, medio y bajo. \n 2.- En cruz alto y bajo. \n 3.- Externo medio con palma hacia afuera."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur18" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Técnicas de Pié: \n \n 1.- Gancho normal y de combate. \n 2.- Hacia atrás normal y de combate. \n 3.- En giro 360°."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur19" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Set y formas: \n \n 1.- Kicking set N° 1. \n 2.- Finger set N° 1. \n 3.- Forma corta N° 2."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur20" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Simbología: \n \n 1.- Patrón Universal. \n 2.- Llama de combate (orginal y EKA ). \n 3.- Significado de saludo del Kenpo."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur21" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Al termino de esta, el Alumno debe conocer y manejar términos y conceptos como: \n \n 1.- Formulación: Improvisar una secuencia lógica de movimientos defensivos, a partir de una defensa cualquiera o de un ataque espontáneo. Cambiar el orden de los movimientos de una defensa predeterminada logrando un resultado efectivo. \n \n 2.- Matrimonio de Masa y Gravedad: Es la unión de la fuerza, mente y respiración, mientras desciendes con el peso del cuerpo. La unión de todos los factores al mismo tiempo que el cuerpo baja, ayuda enormemente a la fuerza de un golpe. Esto causa una unión literal con la gravedad. \n \n 3.- Economía de Movimientos: Es cualquier movimiento que tome menos tiempo en ejecutarlo, pero aún así cause el efecto buscado."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur22" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Tiempo del grado, 6 meses aproximadamente."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txPur23"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"  />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/purpura"
+                android:id="@+id/imageView22" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

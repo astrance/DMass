@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.dm.dmass.petit"
+    android:background="@android:color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:text="Arturo Petit ( 1943 - 2000 )"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginBottom="@dimen/text_margin"
+            android:layout_marginTop="25dp" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:layout_marginTop="115dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/petit"
+                android:id="@+id/imageView6" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="El 'Sensei' Arturo Petit Almonte, Cinturón Negro 8° Dan en Kenpo Karate, nació el 6 de Junio de 1943 en Antofagasta. Realizó sus estudios en el Colegio San Luís y posteriormente en 1961 ingresa a la Universidad Católica de Santiago, a la facultad de Química Industrial, donde realizó sus estudios superiores."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv1"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Junto con su ingreso a la Universidad, comienza la práctica de Karate a los 18 años, ampliando sus conocimientos de éste arte marcial en Argentina y Brasil. Su pasión por ésta disciplina lo lleva en 1964 a lograr la Cinta Negra 1° Dan, siendo el primer chileno en conquistar tan ansiado logro. Su visión y gran espíritu deportivo le hacen continuar sus estudios de karate en Estados Unidos, bajo las ordenes directas de Ed Parker, Cinturón Negro 10° Dan. Pero no todo quedó allí, luego comienza su perfeccionamiento con los mejores Maestros de Karate como: Mas Oyama, Nishiyama, Robert Trias, Fuumio Demura, etc., con el fin de acrecentar su base técnica y filosófica."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv2"
+                android:textAlignment="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="El reconocimiento Internacional llega en 1967, cuando es nombrado representante de la Asociación Norteamericana de Karate (IKKA) para Sudamérica, cargo que oficialmente quedó registrado en 1968 como presidente de la International Kenpo Karate Association, debidamente acreditado ante el Ministerio de Relaciones Exteriores de Chile."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv3"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="El Sensei Petit fue invitado como Juez internacional al Campeonato Internacional de Long Beach en California, USA, en los años 75, 77, 78, 81, 82, 85, 87 y 92. Campeonato internacional de Isla Margarita, Venezuela, en 1982, 4° Torneo Internacional de Caracas, Venezuela, en 1985. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv4"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Su labor incansable en el bien del Kenpo en nuestro país, lo hace conocido en nuestro medio, tanto es así que en 1977, inicia su labor como columnista en el Diario La Tercera. Todo su bagaje de conocimiento en Artes Marciales lo lleva a ser enrevistado por todos los medios de comunicación social ( prensa, Radio y Televisión ), y además invitado principal en varios programas de televisión tanto nacionales como extranjeros. Aparecer en artículos de revistas especializadas como: Black Belt, Inside Kung Fu, Action Karate, Budo, Budoka, Sensei, Karate Internacional, etc. También en el libro 'Quién es quién en las Artes Marciales', del norteamericano Jhon Corcoran. Siendo el único chileno en aparecer en este libro. En 1983 junto al Diario La Tercera, Realizan un programa de Artes Marciales en el canal UCV."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv5"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/petit2"
+                android:id="@+id/imageView7" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="En 1984, fue el artífice de la traída al país de grandes figuras del Karate mundial, como es el caso de Dominique Valera, Benny Urquidez, Bill Wallace, Dan Inosanto, Fumio Demura, Blinky Rodriguez, Erick Lee, Tadachi Yamashita, Robert Trias, Giorgio Perreca y Ed Parker."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv6"
+                android:textAlignment="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Su gran calidad técnica y humana lo llevaron a ser instructor de Karate en la Escuela Militar, Escuela de Aviación y en a Escuela de Investigaciones de Chile, desempeñandose como profesor y asesor en los cuerpos militares y presidenciales, como es el caso de la Compañía de Guardia Presidencial, Escuela de Infantería, Comandos, Fuerzas Especiales de Carabineros y muchas otras. A nivel internacional dictó cursos a la Policía de Montevideo, en Uruguay."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv7"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Su apego a la legalidad lo lleva a cumplir fielmente las disposiciones gubernamentales obteniendo la Autorización N°1, dando fiel cumplimiento a las disposiciones del Bando N°76 de febrero de 1975, control sobre Escuelas, Instructores y Alumnos de Artes Marciales en Chile. Su gran influencia sobre las Artes Marciales en nuestro país, lo llevó a ser jefe de la Comisión Técnica Asesora de las Artes Marciales en Chile. Fué designado como capitál del equipo chileno, que participó en el 4° Campeonato Sudamericano de Karate."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv8"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Don Arturo Petit A., es el únicoMaestro de Karate chileno, que ha recibido una distinción del propio Gobierno de Chile. Ésta fué otorgada por el Presidente Pinochet, en una ceremonia especial realizada en el Palacio Presidencial. /n /n En 1980, obtiene la representacion de la I.A.K.F. (International Amateur Karate Federation). Ésta federación es reconocida por el Comité Olímpico Internacional (COI) y la Organización Deportiva Panamericana (ODEPA), como una de las dos Organizaciones de Karate más grandes del mundo."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv9"
+                android:textAlignment="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/petit1"
+                android:id="@+id/imageView9" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Como pionero del Karate en Chile, a través de todos estos años, siempre se encargó de la difusión de ésta disciplina a nivel nacional e internacional, contando con sedes de la Kenpo Karate en las principales ciudades del país y en países como Suecia, España, Dinamarca, Rusia, Ecuador, Venezuela, Argentina, perú y Bolivia. En sus últimos años realizó en USA cursos de : Combate cuerpo a cuerpo, Procedimientos Antimotines y Policiales. Además, un curso especial en la Internacional Law Enforcenment Division, sobre Técnicas Policiales. En nuestro país volcó ésta experiencia, siendo profesor en cursos especiales, para vigilantes privados de diferentes Empresas privadas. Conforme a las exigencias modernas no sólo adquirió conocimientos prácticos de Karate. También incursionó en Cursos y Seminarios sobre conocimientos más profundos de la mente humana."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv10"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="El 27 de abril de 1985, el Maestro Ed Parker, le otorga el Cinturón Negro 7° Dan. Con éste grado el Maestro Petit queda entre los mejores 5 Karatekas a nivel mundial en estilo Kenpo. En Mayo de 1995, el Sensei Petit fue nominado por el Comité Técnico de la W.K.K.A., que preside Joe Palanzo, Cinturón Negro 10° Dan, siendo aprobado en forma unánime por el Comité Ejecutivo, su ascenso al grado de Cinturón Negro 8° Dan. El 31 de agosto del año 2000 a la edad de 57 años, en la ciudad de Concepción, Arturo Andrés Petit Almonte, Sensei Petit, el llamado 'Pionero del Karate' en Chile, muere victima de un paro cardíaco. Su legado, para algunos de sus alumnos, es la inspiración para seguir enseñando el arte que a Él tanto le apasionó... el KENPO KARATE."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv11"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/kenpo1"
+                android:id="@+id/imageView10" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

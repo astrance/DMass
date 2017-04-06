@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.dm.dmass.negro"
+    android:background="@android:color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:text="Programa Técnico Cinturón Negro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginBottom="@dimen/text_margin"
+            android:layout_marginTop="25dp" />
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:layout_marginTop="115dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" >
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Defensas Personales:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="1.- Pantera engañadora ( Deceptive Phanter ) Puntapié frontal derecho bajo y puntapié circular derecho alto."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="2.- Exponiendo al tigre ( Courting the tiger ) Tomada lateral de ambos brazos, por dos oponentes."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="3.- Enrollando las Serpientes ( Gathering of the snakes ) puño frontal izquierdo por un oponente y puño circular derecho por un segundo oponente."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe3" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="4.- Lanza viajera ( Glancing Lance ) Estocada frontal con cuchillo."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe4" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="5.- Circulos dominantes ( Dominating Circles ) Tomada frontal del hombro derecho, con mano izquierda."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe5" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="6.- Circulos en Reversa ( Reversing Circles ) Puntapié circular izquierdo y puño frontal izquierdo."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe6" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="7.- Desafiando a los Osos ( Reprimanding the Bears ) Abrazo de Oso posterior y puño frontal derecho por dos oponentes."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe7" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="8.- Rodeando la Tormenta ( Circling the Storm ) Bastón frontal derecho o descendente."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe8" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="9.- Despejando la Oscuridad ( Unfoding the Dark ) Puño posterior izquierdo por el flanco derecho."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe9" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="10.- Deteniendo el Péndulo ( Unwinding Pendulum ) Puntapié frontal derecho y puño frontal derecho."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe10" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="11.- Raspando el Casco ( Scraping Hoof ) Full Nelson."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe11" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="12.- Tomada de Muerte ( Grip Of Death ) Candado al Cuello, por el costado izquierdo con brazo derecho."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe12" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="13.- Talón Cruzado ( Crossing Talon ) Tomada frontal de muñeca derecha, cruzada."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe13" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="14.- Masa de Repetición ( Repeating Mace ) Empujón frontal, con mano izquierda.w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe14" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="15.- Martillo Escudado ( shielding Hammer ) Puño frontal Izquierdo en gancho."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe15" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Set y Formas: \n \n 1.- Two Man Set. \n 2.- Forma N° 4."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe16" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Además se exige un mínimo de 45 horas pedagógicas supervisadas por instructor de mayor rango."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txNe17" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Tiempo del grado, 12 meses aproximadamente."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:id="@+id/txNe18" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/negro"
+                android:id="@+id/imageView47" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

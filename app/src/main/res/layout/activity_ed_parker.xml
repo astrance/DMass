@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.dm.dmass.EdParker"
+    android:background="@android:color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:text="Ed Parker ( 1931 - 1990 )"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginBottom="@dimen/text_margin"
+            android:layout_marginTop="25dp" />
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:layout_marginTop="115dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/ed"
+                android:id="@+id/imageView3" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Edmund Kealoha Parker nació en Honolulú, Hawai el 19 de Marzo de 1931. A los 16 años conoció a Frank Chow, quien le contó como acababa de librar una pelea callejera; al ver la expresión escéptica de Parker, Frank Chow decidió mostrarle en qué consistía la estrategia que habría utilizado. Ed Parker, al verlo moverse, sin mas rodeos le dijo estar interesado en aprender 'ese arte oriental'"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvw1"
+                android:textAlignment="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Fué así como Ed Parker inició sus prácticas con Frank Chow, quien al poco tiempo notó que Ed se había convertido en un adicto a la práctica del Kenpo y su sed por aprender 'más y más' eran muy notorias..."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvw2"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Las habilidades de Parker eran naturales, de hecho, desde mucho tiempo antes de su encuentro con Chow, Parker ya había aprendido algo de Judo, y anterior a eso, había aprendido Boxeo, pues su padre había sido Boxeador y Ed aprendió de Él. Durante sus prácticas, Ed nunca fue conformista; cuestionaba, alegaba, pedía comprobaciones, planteaba alternativas."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvw3"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="El progreso de Parker fue tal que de repente Frank Chow le dijo de modo cortante: 'Ed, Hasta aqí podemos llegar juntos, no podré enseñarte mas Kenpo'... La reacción de Ed fue la esperada, Rechazo, decepción, y coraje, cosa que a Frank le agradó,... No esperaba menos; enseguida le explicó que él habia hecho y enseñado todo cuanto podía, pero era tiempo de que continuara sus estudios con su hermano William K. S. Chow, quién era ya instructor de más alto rango en Honolulú."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvw4"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="El acceso a clases con William Chow era muy selectivo y sólo aceptaba alumnos por recomendación directa de algúno de sus alumnos. Ed Parker escribió literalmente en uno de sus libros: 'Desde el momento en que conocí a William Chow y lo vi moverse y luego observé la forma en que transitía sus habilidades y conocimientos a sus alumnos, un fuerte sentimiento penetró mi alma, diciendome, que el KENPO sería todo para el resto de mi vida'."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvw5"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/ed1"
+                android:id="@+id/imageView4" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Fué así como Ed Parker dedicó su vida al aprendizaje y posteriormente al desarrollo del Kenpo."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvw6"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="A lo largo de los años de relación Maestro-Alumno, Chow y Parker comentaron en varias ocasiones sobre la necesidad de adecuar el Kenpo a las condiciones de la vida americana de esos tiempos, de igual manera como la familia Mitose hizo para adaptar sus enseñanzas de acuerdo a las necesidades de la vida en su respectiva época."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvw7"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Ed Parker emigró a EEUU para iniciar sus estudios profesionales y mientras asistía a a Universidad de Brigham Young, en Provo, Utah, fue llamado para incursionar en la Guerra contra Corea en 1951. Parker fué asignado a servir con el servicio de guardacostas en su base en Hawai, de 1951 a 1954, lo cual permitió restablecer sus clases con el Maestro chow, esta vez, como alumno de tiempo completo. Durante ésta época acrecentó sus deseos no solo de aprender, sino de enseñar el Kenpo por lo que previo a ser liberado del servicio militar en Agosto de 1954, habló con William Chow sobre un proyecto para empezar a dar clases a su regreso a los EEUU y así fue.... ya de regreso a la Universidad de Brigham Youth para concluír sus estudios, formó un pequeño grupo de estudiantes hawaianos de la misma escuela y empezó a compartir lo que había aprendido."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvw8"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/ed2"
+                android:id="@+id/imageView5" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Mientras impartía sus clases de Kenpo, lo cual era una novedad en la región, otros estudiantes lo observaban y así su popularidad empezó a extenderse al grado de que en Diciembre de 1954 le solicitaron que freciera una exhibición de Kenpo-Karate durante el medio tiempo de un partido de Basketbol de la B.Y.U. contra la U.C.L.A. El éxito de ésta demostración fue tal que pronto empezó a recibir solicitudes y ofertas para dar clases en varios lugares, principalmente en diversas corporaciones policíacas. Todo esto fue abriendo camino para Ed Parker hasta que decidió mudarse a donde dedicaría su vida a desarrollar el Kenpo Karate. En septiembre de 1956 abrió su propia escuela en Pasadena, California, donde permaneció dando clases por el resto de su vida."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvw9"
+                android:textAlignment="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Una consecuencia derivada de la apertura de sus estudios en esas fechas, fue que se le llamó el 'Padre del Karate Americano', título con el que a la fecha se le reconoce y recuerda."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvw10"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Numerosas personalidades y destacados practicantes de artes marciales tuvieron la oportunidad de ser alumbos del Gran Maestro Parker. Alguno de los Cintas negras de la primera generación son actualmente de reconocido renombre, por ejemplo: James Ibrao, Los hermanos Tracy, Tino Tuilosega, Danny Inosanto, Ralph Castro, Larry Tatum, Elvis Presley, Frank Trejo, Huck Planas y Brian Adams. A éste último ( Brian Adams ) se le debe el mérito de haber continuado la difusión del KENPO hacia la parte sur de California, principalmente San Diego."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvw11"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="El Gran Maestro Ed Parker, el 15 de diciembre de 1990 emprendió un viaje hacia su tierra natal, Hawai, con la finalidad de visitar a su padre; al llegar a ésta isla, estando aún en el Aeropuerto, el 'Gran Hombre Fuerte' sufrió un repentino infarto cardíaco que acabó con su vida. \n \n La única forma de honrar la memoria del Gran Maestro Parker es sumando y multiplicando, lamentablemente algunos se han equivocado, dedicandose a restar y dividir todo el legado que hemos recibido a través del Kenpo Americano de Ed Parker."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvw12"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/kenpo1"
+                android:id="@+id/imageView8" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

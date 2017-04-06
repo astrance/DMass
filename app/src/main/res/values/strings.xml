@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Programa Técnico Dojo Mass Chile</string>
+    <string name="title_activity_blanco_scroll">BlancoScroll</string>
+    <string name="large_text">\"        Programa Técnico Cinturón Blanco.\n        \n    Defensas Personales:\n    \n    1.- Espada Retardada ( Delayed Sword )\n    Puño derecho o tomada de solapa con mano derecha.\n    \n    2.- Masa Alternativa ( Alternating Mass )\n    Empujon Frontal con dos Manos.\n    \n    3.- Espada de Destrucción ( Sword of Destruction )\n    Puño Izquierdo o gancho izquierdo\n    \n    4.- Martillo desviador ( Deflectng Hammer )\n    Puntapié frontal derecho penetrante.\n    \n    5.- Ramas Capturadas ( Captured Twings )\n    Abraso de Oso por detras, con brazos tomados.\n    \n\n\n    Posiciones:\n    \n    1.- Jinete.\n    2.- Arco y Flecha.\n    3.- Neutral.\n    \n    \n    \n    Técnicas de Mano:\n    \n    1.- Puño Frontal.\n    2.- Palmas tres niveles ( Superior, Medio e Inferior )\n    3.- Puño Vertical.\n    \n    \n    \n    Técnicas de Pié:\n    \n    1.- Patada Frontal Rápida.\n    2.- Patada Lateral Rápida.\n    3.- Pisotón Lateral y frontal.\n    \n    \n    \n    Bloquéos:\n    \n    1.- Alto con el Antebrazo.\n    2.- Medio interno con Antebrazo.\n    \n    \n    \n    Set y Formas:\n    \n    1.- Blocking Set N° 1 A, B.\n    2.- Forma corta N° 1 por un lado.\n\n\n    \n    Terminología:\n    \n    1.- Kenpo:          Ley del Puño.\n    2.- Karate:          Manos Vacías.\n    3.- Dojo:             Lugar donde se entrena.\n    4.- Lechini:        Ayudante.\n    5.- Sensei:          Instructor.\n    6.- Senpai:         Maestro de Karate.\n    7.- Ryu:              Escuela de Karate.\n    8.- M.A.S.S.:      Marcialidad, Actitud, Salud, Seguridad.\n    9.- E.K.A.:          Escuela de Karate Americano.\n    \n    \n    \n    En el Examen, el alumno debe demostrar que maneja, sin dudar, las técnicas enseñadas.\n    \n        \n    Tiempo de grado: 2 1/2 meses aproximadamente.\n\n\n    \"</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ama_scroll">AmaScroll</string>
+    <string name="title_activity_amarillo">Amarillo</string>
+    <string name="title_activity_naranjo">Naranjo</string>
+    <string name="title_activity_cafe2_kiu">Cafe2Kiu</string>
+    <string name="title_activity_acerca_de">AcercaDe</string>
+    <string name="title_activity_ed_parker">EdParker</string>
+    <string name="title_activity_petit">petit</string>
+    <string name="title_activity_huaiquimil">huaiquimil</string>
+    <string name="title_activity_purpura">purpura</string>
+    <string name="title_activity_intro">intro</string>
+    <string name="title_activity_azul">azul</string>
+    <string name="title_activity_verde">verde</string>
+    <string name="title_activity_cafe1">cafe1</string>
+    <string name="title_activity_cafe3">cafe3</string>
+    <string name="title_activity_historia">historia</string>
+    <string name="title_activity_negro">negro</string>
+    <string name="banner_inferior_ad_unit_id">ca-app-pub-7981642546571151/5810256624</string>
+    <string name="title_activity_contacto">Contacto</string>
+</resources>

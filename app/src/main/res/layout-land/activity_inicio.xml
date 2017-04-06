@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inicio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dm.dmass.Inicio"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                app:srcCompat="@drawable/dmlogo"
+                android:layout_alignParentTop="true"
+                android:id="@+id/imageView11"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_height="100dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dmblanco"
+                android:id="@+id/imageView"
+                android:layout_above="@+id/btn1"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:text="Inicio"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn1"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:text="Vengo hacia ti con las manos vacias, no tengo armas. Pero si soy obligado a defenderme, a defender mis principios o mi honor. Si es cuestion de vida o muerte, de derecho o de injusticia, entonces aquí estan mis armas, las Manos Vacias!"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

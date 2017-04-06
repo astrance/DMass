@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.dm.dmass.cafe3"
+    android:background="@android:color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:text="Programa Técnico Cinturón Café 3° Kiu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginBottom="@dimen/text_margin"
+            android:layout_marginTop="25dp" />
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:layout_marginTop="115dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" >
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Defensas personales:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="1.- Flecha viajera ( Glancing Spear ) Tomada frontal de muñeca izquierda, con mano derecha."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3.1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="2.- Estocada hacia la oscurdad ( Thrust into Darkness ) Puño derecho desde atrás."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3.2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="3.- Helices circulares ( Circling fans ) Puño frontal izquierdo y derecho, alternado."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3.3" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="4.- Rotación destructora ( Rotating Destruction ) Puntapié frontal derecho y posterior izquierdo en giro."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3.4" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="5.- Halcones de fuerza ( Falcons of Force ) Tomada de hombros, lateral, por dos oponentes."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3.5" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="6.- El oso y el ariete ( The Bear and the Ram ) Puño frontal derecho y abrazo de oso posterior, brazos libres, por dos oponentes."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3.6" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="7.- Lanza en cascada ( Raining Lance ) Cuchillo frontal derecho descendente, con paso en profundidad."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3.7" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="8.- Halcones desesperados ( Desperate Falcons ) Tomada frntal de ambas muñecas."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3.8" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="9.- Salto de muerte ( Leap of Death ) Puño frontal derecho."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3.9" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="10.- Hélices protectoras ( Protecting Fans ) Puño frontal izquierdo y derecho, alternado, pié izquierdo adelantado."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3.10" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="11.- Pantera engañadora ( Deceptive Phanter ) Puntapié frontal derecho bajo y puntapié circular derecho alto."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3.11" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="12.- Exponiendo al tigre ( Courting the tiger ) Tomada lateral de ambos brazos, por dos oponentes."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3.12" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="13.- Enrollando las Serpientes ( Gathering of the snakes ) puño frontal izquierdo por un oponente y puño circular derecho por un segundo oponente."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3.13" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="14.- Lanza viajera ( Glancing Lance ) Estocada frontal con cuchillo."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3.14" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="15.- Circulos dominantes ( Dominating Circles ) Tomada frontal del hombro derecho, con mano izquierda."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3.15" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Set y formas: \n \n 1.- Forma N° 3. \n 2.- Kicking Set N° 2. \n 3.- Staff Set N° 2."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3.16" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Tiempo del grado, 12 meses aproximadamente."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:id="@+id/txCafe3.17" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txCafe3.18" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cafe1"
+                android:id="@+id/imageView34" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

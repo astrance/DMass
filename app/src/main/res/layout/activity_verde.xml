@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.dm.dmass.verde"
+    android:background="@android:color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:text="Programa Técnico Cinturón Verde (4° Kiu)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginBottom="@dimen/text_margin"
+            android:layout_marginTop="25dp" />
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:layout_marginTop="115dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" >
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Defensas Personales:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="1.- Garra oscura ( Obscure Claws ) Tomada de hombro derecho con mano izquierda por el costado."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="2.- Encuentro peligroso ( Encounter with Danger ) Empujón frontal con dos manos."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="3.- Circulo de destrucción ( Circling of Destruction ) Puño frontal izquierdo con paso en profundidad."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer3" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="4.- Desviando el castigo ( Detour from Doom ) Patada circular derecha."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer4" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="5.- Agazapada de sacrificio ( Squatting Sacrifice ) Abrazo de oso posterior con brazos libres."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer5" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="6.- Escape de la muerte ( Escape from Death ) Estrangulamiento posterior con brazo derecho."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer6" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="7.- Peinando la tormenta ( Brushing the Storm ) Bastón descendente derecho desde el costado derecho."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer7" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="8.- Vuelta amenazante ( Menacing Twirl ) Tomada posterior del cinturón con mano izquierda."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer8" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="9.- Salto desde el peligro ( Leap from Danger ) Empujón posterior con dos manos."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer9" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="10.- Circulos de protección ( Circles of Protection ) Puño descendente o bastón sobre la cabeza."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer10" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="11.- Circundar el Castigo ( Circle of Doom ) Puntapié frontal derecho."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer11" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="12.- Romiendo el regalo ( Broken Gift ) Apretón de mano."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer12" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="13.- Ascensión divina ( Heavenly Ascent ) Estrangulamiento frontal con dos manos."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer13" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="14.- Capturando la Tormenta ( Capturing the Storm ) Bastón descendente derecho frontal."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer14" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="15.- Escudo vencedor ( Conquering Schield ) Tomada frontal de solapa con brazo izquierdo recto."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer15" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Técnicas de mano: \n \n 1.- Todas las tecnicas del Finger Set N°1 aplicadas."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer16" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Técnicas de Pié: \n \n 1.- Semi circular con salto. \n 2.- Interna y externa con salto. \n 3.- Interna con giro y salto. \n 4.- Lateral con salto."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer17" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Set y Formas: \n \n 1.- Forma corta N° 3. \n 2.- Set de coordinación N° 2. \n 3.- Staff Set N° 1."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer18" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Otros: \n \n 1.- Freestyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer19" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Tiempo del grado, 10 meses aproximadamente."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txVer20"
+                android:textStyle="normal|bold"
+                android:textAlignment="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/verde"
+                android:id="@+id/imageView33" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

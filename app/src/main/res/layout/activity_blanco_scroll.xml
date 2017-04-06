@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.dm.dmass.BlancoScroll"
+    android:background="@android:color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar2"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:text="Programa Técnico Cinturón Blanco (9° Kiu)"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:id="@+id/textView6"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp" />
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="451dp"
+        android:layout_marginTop="115dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" >
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Defensas Personales:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txBla" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="1.- Espada Retardada ( Delayed Sword ) Puño derecho o tomada de solapa con mano derecha."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txBla1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="2.- Masa Alternativa ( Alternating Mace ) Empujon Frontal con dos Manos."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txBla2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="3.- Espada de Destrucción ( Sword of Destruction ) Puño Izquierdo o gancho izquierdo."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txBla3" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="4.- Martillo desviador ( Deflecting Hammer ) Puntapié frontal derecho penetrante."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txBla4" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="5.- Ramas Capturadas ( Captured Twigs ) Abraso de Oso por detrás, con brazos tomados."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tBla5" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Posiciones: \n \n 1.- Jinete. \n 2.- Arco y Flecha. \n 3.- Neutral."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txBla6" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Técnicas de Mano: \n \n 1.- Puño Frontal. \n 2.- Palmas tres niveles ( Superior, Medio e Inferior ). \n 3.- Puño Vertical."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txBla7" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Técnicas de Pié: \n \n 1.- Patada Frontal Rápida. \n 2.- Patada Lateral Rápida. \n 3.- Pisotón Lateral y frontal."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txBla8" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Bloquéos: \n \n 1.- Alto con el Antebrazo. \n 2.- Medio interno con Antebrazo."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txBla9" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Set y Formas: \n \n 1.- Blocking Set N° 1 A, B. \n 2.- Forma corta N° 1 por un lado."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txBla10" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Terminología: \n \n 1.- Kenpo:  Ley del Puño. \n 2.- Karate: Manos Vacías. \n 3.- Dojo:  Lugar donde se entrena. \n 4.- Lechini: Ayudante. \n 5.- Sensei: Instructor. \n 6.- Senpai: Maestro de Karate. \n 7.- Ryu: Escuela de Karate. \n 8.- M.A.S.S.:  Marcialidad, Actitud, Salud, Seguridad. \n 9.- E.K.A.: Escuela de Karate Americano."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txBla11" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="En el Exámen, el alumno debe demostrar que maneja, sin dudar, las técnicas enseñadas."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txBla12" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text=" Tiempo de grado: 2 1/2 meses aproximadamente."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:id="@+id/txBla13" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/blanco"
+                android:id="@+id/imageView36" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

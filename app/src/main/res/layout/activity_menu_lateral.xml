@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu_lateral"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dm.dmass.MenuLateral"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Indice"
+        android:textSize="30sp" />
+
+    <Button
+        android:text="Historia del Kenpo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDHistoria"
+        android:layout_below="@+id/IDRene"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/white"
+        android:textAlignment="textStart"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_alignLeft="@+id/IDRene"
+        android:layout_alignStart="@+id/IDRene" />
+
+    <Button
+        android:text="Ed Parker"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDParker"
+        android:textAlignment="textStart"
+        android:background="@android:color/white"
+        android:layout_below="@+id/IDIntro"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.AppCompat.Button.Borderless" />
+
+    <Button
+        android:text="Introducción"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDIntro"
+        android:background="@android:color/white"
+        android:textAlignment="textStart"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.AppCompat.Button.Borderless" />
+
+    <Button
+        android:text="René Huaiquimil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDRene"
+        android:background="@android:color/white"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/IDPetit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_alignLeft="@+id/IDPetit"
+        android:layout_alignStart="@+id/IDPetit" />
+
+    <Button
+        android:text="Acerca de..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDAcerca"
+        android:textAlignment="textStart"
+        android:background="@android:color/white"
+        android:layout_below="@+id/IDPrograma"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_alignLeft="@+id/IDPrograma"
+        android:layout_alignStart="@+id/IDPrograma" />
+
+    <Button
+        android:text="Arturo Petit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDPetit"
+        android:background="@android:color/white"
+        android:textAlignment="textStart"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_below="@+id/IDParker"
+        android:layout_alignLeft="@+id/IDParker"
+        android:layout_alignStart="@+id/IDParker"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Programa Técnico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDPrograma"
+        android:textAlignment="textStart"
+        android:background="@android:color/white"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_below="@+id/IDHistoria"
+        android:layout_alignLeft="@+id/IDHistoria"
+        android:layout_alignStart="@+id/IDHistoria"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dmblanco"
+        android:layout_alignTop="@+id/IDIntro"
+        android:layout_toLeftOf="@+id/IDIntro"
+        android:layout_toStartOf="@+id/IDIntro"
+        android:id="@+id/imageView24" />
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dmblanco"
+        android:layout_alignTop="@+id/IDParker"
+        android:layout_toLeftOf="@+id/IDParker"
+        android:layout_toStartOf="@+id/IDParker"
+        android:id="@+id/imageView25" />
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dmblanco"
+        android:layout_alignTop="@+id/IDPetit"
+        android:layout_toLeftOf="@+id/IDPetit"
+        android:layout_toStartOf="@+id/IDPetit"
+        android:id="@+id/imageView26" />
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dmblanco"
+        android:layout_alignTop="@+id/IDRene"
+        android:layout_toLeftOf="@+id/IDRene"
+        android:layout_toStartOf="@+id/IDRene"
+        android:id="@+id/imageView27"/>
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dmblanco"
+        android:layout_alignTop="@+id/IDHistoria"
+        android:layout_toLeftOf="@+id/IDHistoria"
+        android:layout_toStartOf="@+id/IDHistoria"
+        android:id="@+id/imageView28" />
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dmblanco"
+        android:layout_alignTop="@+id/IDPrograma"
+        android:layout_toLeftOf="@+id/IDPrograma"
+        android:layout_toStartOf="@+id/IDPrograma"
+        android:id="@+id/imageView29" />
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dmblanco"
+        android:layout_alignTop="@+id/IDAcerca"
+        android:layout_toLeftOf="@+id/IDAcerca"
+        android:layout_toStartOf="@+id/IDAcerca"
+        android:id="@+id/imageView30" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/av_bottom_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_inferior_ad_unit_id"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

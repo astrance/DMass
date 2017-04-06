@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dm.dmass">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Inicio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuLateral" />
+        <activity
+            android:name=".BlancoScroll"
+            android:label="@string/title_activity_blanco_scroll"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Amarillo"
+            android:label="@string/title_activity_amarillo"
+            android:parentActivityName=".MenuLateral"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dm.dmass.MenuLateral" />
+        </activity>
+        <activity android:name=".Programas" />
+        <activity
+            android:name=".Naranjo"
+            android:label="@string/title_activity_naranjo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cafe2Kiu"
+            android:label="@string/title_activity_cafe2_kiu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AcercaDe"
+            android:label="@string/title_activity_acerca_de"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EdParker"
+            android:label="@string/title_activity_ed_parker"
+            android:parentActivityName=".MenuLateral"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dm.dmass.MenuLateral" />
+        </activity>
+        <activity
+            android:name=".petit"
+            android:label="@string/title_activity_petit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".huaiquimil"
+            android:label="@string/title_activity_huaiquimil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".purpura"
+            android:label="@string/title_activity_purpura"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".intro"
+            android:label="@string/title_activity_intro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".azul"
+            android:label="@string/title_activity_azul"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".verde"
+            android:label="@string/title_activity_verde"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cafe1"
+            android:label="@string/title_activity_cafe1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cafe3"
+            android:label="@string/title_activity_cafe3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".historia"
+            android:label="@string/title_activity_historia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".negro"
+            android:label="@string/title_activity_negro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Contacto"
+            android:label="@string/title_activity_contacto"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

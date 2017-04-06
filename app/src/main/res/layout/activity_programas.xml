@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_programas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dm.dmass.Programas"
+    android:background="@android:color/white">
+
+    <Button
+        android:text="Programa Tecnico Cinturón Blanco (9° Kiu)"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDBlanco"
+        android:background="@android:color/white"
+        android:textAlignment="textStart"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textSize="12sp" />
+
+    <Button
+        android:text="Programa Técnico Cinturón Amarillo (8° Kiu)"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDAmarillo"
+        android:textAlignment="textStart"
+        android:background="@android:color/white"
+        android:layout_below="@+id/IDBlanco"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="12sp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_toRightOf="@+id/imageView37"
+        android:layout_toEndOf="@+id/imageView37" />
+
+    <Button
+        android:text="Programa Técnico Cinturón Naranjo (7° Kiu )"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDNaranjo"
+        android:textAlignment="textStart"
+        android:background="@android:color/white"
+        android:layout_below="@+id/IDAmarillo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="12sp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_alignLeft="@+id/IDAmarillo"
+        android:layout_alignStart="@+id/IDAmarillo" />
+
+    <Button
+        android:text="Programa Técnico Cinturón Purpura (6° Kiu)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDPurpura"
+        android:background="@android:color/white"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/IDNaranjo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="12sp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_alignLeft="@+id/IDNaranjo"
+        android:layout_alignStart="@+id/IDNaranjo" />
+
+    <Button
+        android:text="Programa Técnico Cinturón Azul (5° Kiu)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDAzul"
+        android:background="@android:color/white"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/IDPurpura"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="12sp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_alignLeft="@+id/IDPurpura"
+        android:layout_alignStart="@+id/IDPurpura" />
+
+    <Button
+        android:text="Programa Técnico Cinturón Verde (4° Kiu)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDVerde"
+        android:textAlignment="textStart"
+        android:background="@android:color/white"
+        android:layout_below="@+id/IDAzul"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="12sp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_alignLeft="@+id/IDAzul"
+        android:layout_alignStart="@+id/IDAzul" />
+
+    <Button
+        android:text="Programa Técnico Café 3° Kiu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IDVerde"
+        android:id="@+id/IDCafe3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/white"
+        android:textAlignment="textStart"
+        android:textSize="12sp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_alignLeft="@+id/IDVerde"
+        android:layout_alignStart="@+id/IDVerde" />
+
+    <Button
+        android:text="Programa Técnico Café 2° Kiu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IDCafe3"
+        android:id="@+id/IDCafe2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="textStart"
+        android:background="@android:color/white"
+        android:textSize="12sp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_alignLeft="@+id/IDCafe3"
+        android:layout_alignStart="@+id/IDCafe3" />
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dmblanco"
+        android:id="@+id/imageView37"
+        android:layout_alignTop="@+id/IDBlanco"
+        android:layout_toLeftOf="@+id/IDBlanco"
+        android:layout_toStartOf="@+id/IDBlanco" />
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dmblanco"
+        android:layout_alignTop="@+id/IDAmarillo"
+        android:layout_toLeftOf="@+id/IDAmarillo"
+        android:layout_toStartOf="@+id/IDAmarillo"
+        android:id="@+id/imageView38" />
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dmblanco"
+        android:layout_alignTop="@+id/IDNaranjo"
+        android:layout_toLeftOf="@+id/IDNaranjo"
+        android:layout_toStartOf="@+id/IDNaranjo"
+        android:id="@+id/imageView39" />
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dmblanco"
+        android:layout_alignTop="@+id/IDPurpura"
+        android:layout_toLeftOf="@+id/IDPurpura"
+        android:layout_toStartOf="@+id/IDPurpura"
+        android:id="@+id/imageView40" />
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dmblanco"
+        android:layout_alignTop="@+id/IDAzul"
+        android:layout_toLeftOf="@+id/IDAzul"
+        android:layout_toStartOf="@+id/IDAzul"
+        android:id="@+id/imageView41" />
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dmblanco"
+        android:layout_alignTop="@+id/IDVerde"
+        android:layout_toLeftOf="@+id/IDVerde"
+        android:layout_toStartOf="@+id/IDVerde"
+        android:id="@+id/imageView42" />
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dmblanco"
+        android:layout_alignTop="@+id/IDCafe3"
+        android:layout_toLeftOf="@+id/IDCafe3"
+        android:layout_toStartOf="@+id/IDCafe3"
+        android:id="@+id/imageView43" />
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dmblanco"
+        android:layout_alignTop="@+id/IDCafe2"
+        android:layout_toLeftOf="@+id/IDCafe2"
+        android:layout_toStartOf="@+id/IDCafe2"
+        android:id="@+id/imageView44" />
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dmblanco"
+        android:layout_alignTop="@+id/IDCafe1"
+        android:layout_toLeftOf="@+id/IDCafe1"
+        android:layout_toStartOf="@+id/IDCafe1"
+        android:id="@+id/imageView45" />
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dmblanco"
+        android:layout_alignTop="@+id/IDNegro"
+        android:layout_toLeftOf="@+id/IDNegro"
+        android:layout_toStartOf="@+id/IDNegro"
+        android:id="@+id/imageView46" />
+
+    <Button
+        android:text="Programa Técnico Café 1° Kiu"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDCafe1"
+        android:background="@android:color/white"
+        android:textAlignment="textStart"
+        android:textSize="12sp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_below="@+id/IDCafe2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Programa Técnico Negro"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDNegro"
+        android:background="@android:color/white"
+        android:textAlignment="textStart"
+        android:textSize="12sp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_below="@+id/IDCafe1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
